@@ -1,0 +1,29 @@
+[2026-04-24T09:24:15Z] === ENRICH ITERATION 1 START | repo=PrefectHQ/prefect sha=ee531648 ===
+[2026-04-24T09:24:15Z] [iter=1] PHASE START: enrich repo=PrefectHQ/prefect sha=ee531648 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/ee531648-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/ee531648b970b255057701acb167c2882c297ea1.nq.gz
+[2026-04-24T09:25:16Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-04-24T09:30:18Z] [iter=1] AST store loaded triples=24747221 load_secs=294 mem_mb=1131 MB
+[2026-04-24T09:30:18Z] [iter=1] Step 2: Finding LSP targets mem_mb=1131 MB
+[2026-04-24T09:31:30Z] [iter=1] LSP targets found call_sites=172260 imports=20441 extends=3015 implements=0 secs=72
+[2026-04-24T09:32:34Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1131 MB
+[2026-04-24T09:35:11Z] [iter=1] Position index built positions=1697363 nodes_with_types=2154896 secs=157 mem_mb=3777 MB
+[2026-04-24T09:35:11Z] [iter=1] Step 3: Starting LSP resolution mem_mb=3777 MB already_completed_types=[] already_completed_files=0
+[2026-04-24T09:35:11Z] [iter=1] Resolving target type target_type=call_site count=172260
+[2026-04-24T09:35:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.0 files_done=0 resolved=0 errors=0 current=src/prefect/server/events/services/event_logger.py
+[2026-04-24T09:37:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.8 files_done=1 resolved=4 errors=13 current=src/integrations/prefect-github/prefect_github/schemas/graphql_schema.py
+[2026-04-24T09:42:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.8 files_done=2 resolved=4 errors=13 current=src/prefect/types/_datetime.py
+[2026-04-24T09:47:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.1 files_done=3 resolved=34 errors=52 current=tests/server/orchestration/test_global_policy.py
+[2026-04-24T09:53:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.6 files_done=4 resolved=53 errors=99 current=src/prefect/cli/dev.py
+[2026-04-24T10:01:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=37.3 files_done=5 resolved=101 errors=155 current=tests/server/concurrency/test_memory_lease_storage.py
+[2026-04-24T10:08:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=44.7 files_done=6 resolved=154 errors=209 current=tests/telemetry/test_run_telemetry.py
+[2026-04-24T10:26:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=62.4 files_done=7 resolved=241 errors=337 current=tests/test_logging.py
+[2026-04-24T11:02:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=97.8 files_done=8 resolved=377 errors=593 current=src/integrations/prefect-shell/prefect_shell/commands.py
+[2026-04-24T11:13:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=109.1 files_done=9 resolved=419 errors=675 current=src/prefect/server/schemas/core.py
+[2026-04-24T11:18:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=114.0 files_done=10 resolved=676 errors=711 current=tests/test_task_engine.py
+[2026-04-24T12:22:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=178.4 files_done=11 resolved=858 errors=1181 current=tests/events/server/conftest.py
+[2026-04-24T12:24:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=179.8 files_done=12 resolved=873 errors=1191 current=src/integrations/prefect-gcp/tests/conftest.py
+[2026-04-24T12:27:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=183.0 files_done=13 resolved=919 errors=1214 current=tests/cli/test_deploy.py
+[2026-04-24T13:18:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=234.0 files_done=14 resolved=1296 errors=1585 current=src/integrations/prefect-gcp/prefect_gcp/cloud_storage.py
+[2026-04-24T13:24:33Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=240.3 files_completed=14 new_files_this_iter=14 mem_mb=3842 MB
+[2026-04-24T13:24:33Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/ee531648b970b255057701acb167c2882c297ea1.nq.gz triples=111974
+[2026-04-24T13:24:35Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-04-24T13:24:35Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=14419 elapsed_min=240.3 files_completed=14

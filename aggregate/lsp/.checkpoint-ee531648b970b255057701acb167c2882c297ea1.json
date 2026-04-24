@@ -1,0 +1,40 @@
+{
+  "commit_sha": "ee531648b970b255057701acb167c2882c297ea1",
+  "completed_files": [
+    "src/integrations/prefect-gcp/tests/conftest.py",
+    "src/integrations/prefect-github/prefect_github/schemas/graphql_schema.py",
+    "src/integrations/prefect-shell/prefect_shell/commands.py",
+    "src/prefect/cli/dev.py",
+    "src/prefect/server/events/services/event_logger.py",
+    "src/prefect/server/schemas/core.py",
+    "src/prefect/types/_datetime.py",
+    "tests/cli/test_deploy.py",
+    "tests/events/server/conftest.py",
+    "tests/server/concurrency/test_memory_lease_storage.py",
+    "tests/server/orchestration/test_global_policy.py",
+    "tests/telemetry/test_run_telemetry.py",
+    "tests/test_logging.py",
+    "tests/test_task_engine.py"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/PrefectHQ/prefect/lsp/ee531648b970b255057701acb167c2882c297ea1",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/ee531648b970b255057701acb167c2882c297ea1.nq.gz",
+    "call_sites": 172260,
+    "import_statements": 20441,
+    "call_targets_resolved": 1320,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 1631,
+    "extends_clauses": 3015,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 35224,
+    "import_symbols_denormalized": 21248,
+    "extends_class_denormalized": 3013,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 14418
+}
