@@ -10,7 +10,7 @@
       "git:hexsha": "ee531648b970b255057701acb167c2882c297ea1",
       "repolex:parseStatus": "parsed",
       "git:tagName": "prefect-sqlalchemy-0.6.1",
-      "repolex:parsedAt": "2026-04-24T03:46:56.578398+00:00"
+      "repolex:parsedAt": "2026-04-24T04:42:03.583694+00:00"
     },
     {
       "@id": "https://repolex.ai/r/PrefectHQ/prefect/commit/9e166a47a8165f619841f00c88bfed3f0cdf7757",
