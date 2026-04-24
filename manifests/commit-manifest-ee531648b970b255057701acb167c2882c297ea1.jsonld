@@ -23,13 +23,13 @@
       "@type": "repolex:GraphFile",
       "repolex:graphType": "branch",
       "repolex:graphFilePath": "branch/branch.nq.gz",
-      "repolex:graphFileSize": 93543
+      "repolex:graphFileSize": 94119
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "tag",
       "repolex:graphFilePath": "tag/tag.nq.gz",
-      "repolex:graphFileSize": 50314
+      "repolex:graphFileSize": 50431
     },
     {
       "@type": "repolex:GraphFile",
@@ -45,7 +45,7 @@
     }
   ],
   "repolex:parseStatus": "parsed",
-  "repolex:parsedAt": "2026-04-24T02:59:52.204121+00:00",
+  "repolex:parsedAt": "2026-04-24T03:46:56.577433+00:00",
   "repolex:parserVersion": "0.1.0",
   "git:tagName": "prefect-sqlalchemy-0.6.1"
 }
