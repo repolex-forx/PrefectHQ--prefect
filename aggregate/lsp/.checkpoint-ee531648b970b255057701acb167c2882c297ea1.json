@@ -43,6 +43,7 @@
     "src/prefect/server/services/cancellation_cleanup.py",
     "src/prefect/task_worker.py",
     "src/prefect/types/_datetime.py",
+    "src/prefect/utilities/engine.py",
     "src/prefect/workers/utilities.py",
     "tests/_experimental/bundles/test_path_resolver.py",
     "tests/_internal/concurrency/test_api.py",
@@ -76,6 +77,7 @@
     "tests/test_settings.py",
     "tests/test_task_engine.py",
     "tests/test_task_worker.py",
+    "tests/test_tasks.py",
     "tests/utilities/test_callables.py"
   ],
   "completed_types": [],
@@ -84,13 +86,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/ee531648b970b255057701acb167c2882c297ea1.nq.gz",
     "call_sites": 172260,
     "import_statements": 20441,
-    "call_targets_resolved": 5370,
+    "call_targets_resolved": 5819,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 9959,
+    "errors": 11321,
     "extends_clauses": 3015,
     "implements_clauses": 0,
     "import_modules_denormalized": 35224,
@@ -98,5 +100,5 @@
     "extends_class_denormalized": 3013,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14456
+  "elapsed_seconds": 14461
 }
