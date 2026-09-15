@@ -5539,8 +5539,9 @@
     {
       "@id": "https://repolex.ai/r/PrefectHQ/prefect/commit/b8f627af041246118375a0dbd1bbe1fe80dd86d7",
       "git:hexsha": "b8f627af041246118375a0dbd1bbe1fe80dd86d7",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "prefect-snowflake-0.28.3"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "prefect-snowflake-0.28.3",
+      "repolex:parsedAt": "2026-09-15T13:46:53.341948+00:00"
     },
     {
       "@id": "https://repolex.ai/r/PrefectHQ/prefect/commit/d8bec12e4bfba3ad308bf38a1f7f82e93792d9ec",
