@@ -1,0 +1,91 @@
+[2026-09-16T08:41:01Z] === ENRICH ITERATION 5 START | repo=PrefectHQ/prefect sha=eb0e40c2 ===
+[2026-09-16T08:41:01Z] [iter=5] PHASE START: enrich repo=PrefectHQ/prefect sha=eb0e40c2 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/eb0e40c2-enrich-iter-005.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/eb0e40c29398e8705ce7a2286828945fe488fa8d.nq.gz
+[2026-09-16T08:41:17Z] [iter=5] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-16T08:44:06Z] [iter=5] AST store loaded triples=13896776 load_secs=164 mem_mb=1104 MB
+[2026-09-16T08:44:06Z] [iter=5] Step 2: Finding LSP targets mem_mb=1104 MB
+[2026-09-16T08:44:53Z] [iter=5] LSP targets found call_sites=94928 imports=1066 extends=260 implements=0 secs=47
+[2026-09-16T08:45:03Z] [iter=5] Loaded checkpoint partial graph triples=223738
+[2026-09-16T08:45:41Z] [iter=5] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1104 MB
+[2026-09-16T08:47:18Z] [iter=5] Position index built positions=950889 nodes_with_types=1231130 secs=97 mem_mb=2726 MB
+[2026-09-16T08:47:18Z] [iter=5] Step 3: Starting LSP resolution mem_mb=2726 MB already_completed_types=[] already_completed_files=281
+[2026-09-16T08:47:18Z] [iter=5] Resolving target type target_type=call_site count=94928
+[2026-09-16T08:47:19Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=6.3 files_done=0 resolved=0 errors=0 current=src/prefect/context.py
+[2026-09-16T08:52:05Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=11.1 files_done=1 resolved=33 errors=47 current=src/integrations/prefect-dbt/tests/cli/test_commands.py
+[2026-09-16T08:56:43Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=15.7 files_done=2 resolved=62 errors=93 current=src/prefect/cli/cloud/__init__.py
+[2026-09-16T09:04:57Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=23.9 files_done=3 resolved=117 errors=175 current=src/prefect/_internal/concurrency/threads.py
+[2026-09-16T09:08:10Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=27.1 files_done=4 resolved=152 errors=207 current=src/prefect/server/database/migrations/versions/sqlite/2022_04_23_114831_fd966d4ad99c_rename_block_to_blockbasis_and_.py
+[2026-09-16T09:09:25Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=28.4 files_done=6 resolved=201 errors=219 current=src/integrations/prefect-bitbucket/tests/test_repository.py
+[2026-09-16T09:12:27Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=31.4 files_done=7 resolved=241 errors=249 current=src/integrations/prefect-aws/tests/test_client_parameters.py
+[2026-09-16T09:14:10Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=33.2 files_done=8 resolved=242 errors=266 current=src/integrations/prefect-github/prefect_github/utils.py
+[2026-09-16T09:15:10Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=34.2 files_done=9 resolved=251 errors=276 current=tests/test_flow_engine.py
+[2026-09-16T09:25:21Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=44.3 files_done=10 resolved=361 errors=376 current=tests/blocks/test_core.py
+[2026-09-16T09:36:33Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=55.5 files_done=11 resolved=477 errors=485 current=tests/server/models/test_block_documents.py
+[2026-09-16T09:41:57Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=60.9 files_done=12 resolved=545 errors=539 current=src/prefect/server/events/services/triggers.py
+[2026-09-16T09:42:40Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=61.6 files_done=13 resolved=550 errors=546 current=src/prefect/server/api/flow_runs.py
+[2026-09-16T09:50:22Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=69.3 files_done=14 resolved=566 errors=623 current=tests/cli/test_config.py
+[2026-09-16T09:51:47Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=70.8 files_done=16 resolved=583 errors=637 current=src/integrations/prefect-aws/prefect_aws/workers/ecs_worker.py
+[2026-09-16T09:57:27Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=76.4 files_done=17 resolved=768 errors=693 current=src/prefect/server/services/late_runs.py
+[2026-09-16T09:58:27Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=77.4 files_done=18 resolved=772 errors=703 current=src/prefect/server/database/migrations/versions/postgresql/2023_01_26_045500_2882cd2df463_implement_artifact_table.py
+[2026-09-16T09:59:21Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=78.3 files_done=19 resolved=772 errors=712 current=tests/utilities/schema_tools/test_hydration.py
+[2026-09-16T10:02:21Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=81.3 files_done=23 resolved=850 errors=741 current=tests/runner/test_webserver.py
+[2026-09-16T10:03:22Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=82.3 files_done=24 resolved=881 errors=751 current=src/prefect/server/orchestration/core_policy.py
+[2026-09-16T10:10:40Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=89.6 files_done=25 resolved=925 errors=824 current=src/integrations/prefect-kubernetes/prefect_kubernetes/credentials.py
+[2026-09-16T10:11:16Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=90.2 files_done=26 resolved=939 errors=830 current=src/prefect/server/api/clients.py
+[2026-09-16T10:12:17Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=91.3 files_done=27 resolved=982 errors=840 current=src/prefect/server/models/task_runs.py
+[2026-09-16T10:15:16Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=94.2 files_done=28 resolved=988 errors=867 current=tests/test_cache_policies.py
+[2026-09-16T10:16:40Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=95.6 files_done=29 resolved=1011 errors=881 current=src/integrations/prefect-databricks/prefect_databricks/rest.py
+[2026-09-16T10:17:58Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=97.0 files_done=30 resolved=1021 errors=894 current=tests/runner/test_storage.py
+[2026-09-16T10:19:38Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=98.6 files_done=31 resolved=1084 errors=910 current=src/prefect/server/database/migrations/versions/sqlite/2023_04_04_115150_553920ec20e9_add_index_on_log.py
+[2026-09-16T10:21:45Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=100.7 files_done=33 resolved=1084 errors=931 current=src/prefect/server/models/events.py
+[2026-09-16T10:24:35Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=103.6 files_done=34 resolved=1108 errors=959 current=tests/server/models/test_flows.py
+[2026-09-16T10:27:37Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=106.6 files_done=37 resolved=1185 errors=989 current=src/prefect/main.py
+[2026-09-16T10:28:07Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=107.1 files_done=39 resolved=1197 errors=994 current=src/prefect/server/database/migrations/versions/sqlite/2023_01_25_114348_b9bda9f142f1_expand_work_queue_table.py
+[2026-09-16T10:33:41Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=112.7 files_done=40 resolved=1197 errors=1049 current=tests/server/database/test_dependencies.py
+[2026-09-16T10:34:17Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=113.3 files_done=41 resolved=1205 errors=1055 current=benches/bench_flows.py
+[2026-09-16T10:35:24Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=114.4 files_done=42 resolved=1215 errors=1066 current=src/prefect/infrastructure/provisioners/container_instance.py
+[2026-09-16T10:41:10Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=120.1 files_done=43 resolved=1300 errors=1123 current=src/prefect/runtime/flow_run.py
+[2026-09-16T10:48:22Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=127.3 files_done=44 resolved=1313 errors=1195 current=src/prefect/server/database/migrations/versions/sqlite/2024_01_22_120214_265eb1a2da4c_create_deployment_schedule_and_add_.py
+[2026-09-16T10:48:52Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=127.9 files_done=45 resolved=1313 errors=1200 current=src/prefect/server/models/concurrency_limits_v2.py
+[2026-09-16T10:50:22Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=129.3 files_done=46 resolved=1326 errors=1214 current=src/prefect/server/events/actions.py
+[2026-09-16T11:07:20Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=146.3 files_done=47 resolved=1496 errors=1382 current=src/prefect/server/models/flow_run_notification_policies.py
+[2026-09-16T11:08:36Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=147.6 files_done=49 resolved=1505 errors=1394 current=src/prefect/server/api/work_queues.py
+[2026-09-16T11:11:07Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=150.1 files_done=50 resolved=1505 errors=1419 current=src/integrations/prefect-aws/prefect_aws/utilities.py
+[2026-09-16T11:12:25Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=151.4 files_done=51 resolved=1515 errors=1432 current=tests/docker/test_image_builder_assertions.py
+[2026-09-16T11:14:43Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=153.7 files_done=52 resolved=1518 errors=1455 current=tests/events/server/conftest.py
+[2026-09-16T11:18:15Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=157.2 files_done=54 resolved=1586 errors=1490 current=tests/server/orchestration/api/ui/test_task_runs.py
+[2026-09-16T11:19:03Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=158.0 files_done=57 resolved=1721 errors=1496 current=tests/test_task_worker.py
+[2026-09-16T11:20:23Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=159.4 files_done=58 resolved=1768 errors=1507 current=src/integrations/prefect-shell/tests/test_commands_windows.py
+[2026-09-16T11:24:48Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=163.8 files_done=59 resolved=1789 errors=1551 current=src/integrations/prefect-dbt/prefect_dbt/cli/commands.py
+[2026-09-16T11:26:55Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=165.9 files_done=60 resolved=1856 errors=1572 current=src/integrations/prefect-github/tests/test_utils.py
+[2026-09-16T11:27:37Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=166.6 files_done=61 resolved=1859 errors=1579 current=src/prefect/server/api/ui/flows.py
+[2026-09-16T11:28:19Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=167.3 files_done=62 resolved=1871 errors=1586 current=tests/events/client/test_utility_events_clients.py
+[2026-09-16T11:35:29Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=174.5 files_done=64 resolved=1883 errors=1657 current=flows/flow_retries.py
+[2026-09-16T11:36:11Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=175.2 files_done=66 resolved=1886 errors=1664 current=tests/cli/test_task.py
+[2026-09-16T11:37:42Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=176.7 files_done=68 resolved=1974 errors=1679 current=src/prefect/server/services/flow_run_notifications.py
+[2026-09-16T11:38:43Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=177.7 files_done=69 resolved=1982 errors=1689 current=tests/cli/test_work_pool.py
+[2026-09-16T11:39:23Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=178.4 files_done=70 resolved=2003 errors=1695 current=src/prefect/logging/loggers.py
+[2026-09-16T11:41:24Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=180.4 files_done=71 resolved=2035 errors=1715 current=src/prefect/utilities/engine.py
+[2026-09-16T11:48:37Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=187.6 files_done=72 resolved=2150 errors=1786 current=src/integrations/prefect-gcp/prefect_gcp/bigquery.py
+[2026-09-16T11:51:51Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=190.8 files_done=73 resolved=2206 errors=1818 current=src/prefect/deployments/flow_runs.py
+[2026-09-16T11:53:21Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=192.3 files_done=74 resolved=2212 errors=1833 current=tests/events/server/actions/test_jinja_templated_action.py
+[2026-09-16T12:01:04Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=200.1 files_done=75 resolved=2286 errors=1910 current=tests/test_filesystems.py
+[2026-09-16T12:01:42Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=200.7 files_done=76 resolved=2412 errors=1916 current=tests/docker/test_registry_pushes.py
+[2026-09-16T12:04:02Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=203.0 files_done=79 resolved=2443 errors=1939 current=src/integrations/prefect-snowflake/prefect_snowflake/database.py
+[2026-09-16T12:07:53Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=206.9 files_done=80 resolved=2497 errors=1977 current=src/prefect/server/database/migrations/versions/postgresql/2024_04_10_194742_15768c2ec702_add_events_and_event_resources_tables.py
+[2026-09-16T12:09:29Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=208.5 files_done=81 resolved=2497 errors=1993 current=tests/server/services/test_cancellation_cleanup.py
+[2026-09-16T12:10:55Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=209.9 files_done=82 resolved=2503 errors=2007 current=docs/integrations/create_integrations_cards.py
+[2026-09-16T12:11:29Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=210.5 files_done=84 resolved=2524 errors=2012 current=src/prefect/server/database/migrations/versions/postgresql/2024_05_21_101457_94622c1663e8_json_variables.py
+[2026-09-16T12:12:05Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=211.1 files_done=85 resolved=2526 errors=2018 current=src/prefect/server/events/pipeline.py
+[2026-09-16T12:12:59Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=212.0 files_done=86 resolved=2531 errors=2027 current=src/prefect/utilities/processutils.py
+[2026-09-16T12:15:42Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=214.7 files_done=87 resolved=2585 errors=2054 current=src/integrations/prefect-aws/tests/test_s3.py
+[2026-09-16T12:26:09Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=225.1 files_done=88 resolved=2716 errors=2157 current=tests/concurrency/v1/test_concurrency_asyncio.py
+[2026-09-16T12:26:39Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=225.6 files_done=89 resolved=2756 errors=2162 current=src/prefect/testing/fixtures.py
+[2026-09-16T12:29:41Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=228.7 files_done=90 resolved=2794 errors=2192 current=src/prefect/cli/_prompts.py
+[2026-09-16T12:36:12Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=235.2 files_done=91 resolved=2873 errors=2257 current=tests/server/orchestration/test_global_policy.py
+[2026-09-16T12:38:19Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=237.3 files_done=92 resolved=2878 errors=2278 current=src/integrations/prefect-kubernetes/tests/test_deployments.py
+[2026-09-16T12:39:06Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=238.1 files_done=93 resolved=2878 errors=2286 current=src/prefect/server/database/migrations/versions/sqlite/2022_07_25_142515_f335f9633eec_adds_block_type_slug.py
+[2026-09-16T12:41:00Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=240.0 files_done=94 resolved=2880 errors=2305 current=src/prefect/utilities/urls.py
+[2026-09-16T12:41:07Z] [iter=5] CHECKPOINT TRIGGERED elapsed_min=240.1 files_completed=375 new_files_this_iter=94 mem_mb=2732 MB
+[2026-09-16T12:41:07Z] [iter=5] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/eb0e40c29398e8705ce7a2286828945fe488fa8d.nq.gz triples=259522
+[2026-09-16T12:41:13Z] [iter=5] Checkpoint written, exiting with code 7
+[2026-09-16T12:41:13Z] [iter=5] PHASE END: enrich (checkpointed) elapsed_s=14406 elapsed_min=240.1 files_completed=375
