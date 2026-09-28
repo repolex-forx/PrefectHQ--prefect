@@ -1,0 +1,46 @@
+{
+  "org": "PrefectHQ",
+  "repo": "prefect",
+  "versions": [
+    {
+      "commit": "0338db3960aa578ce7e49e1db23d79af4baefd70",
+      "tag": "prefect-snowflake-0.28.0rc1",
+      "parsed_at": "2026-09-28T07:07:56.142731+00:00"
+    },
+    {
+      "commit": "eb0e40c29398e8705ce7a2286828945fe488fa8d",
+      "tag": "prefect-snowflake-0.28.0",
+      "parsed_at": "2026-09-15T14:23:51.144974+00:00"
+    },
+    {
+      "commit": "b8f627af041246118375a0dbd1bbe1fe80dd86d7",
+      "tag": "prefect-snowflake-0.28.3",
+      "parsed_at": "2026-09-15T13:46:53.339777+00:00"
+    },
+    {
+      "commit": "d5d8d74476db3f88d210e45a0b9d8c850024681b",
+      "tag": "prefect-snowflake-0.28.5",
+      "parsed_at": "2026-09-15T12:31:49.884779+00:00"
+    },
+    {
+      "commit": "17a1b1d83fed3bd1084c7cd5b2a7cf543370459f",
+      "tag": "prefect-sqlalchemy-0.4.3",
+      "parsed_at": "2026-09-15T02:51:31.494270+00:00"
+    },
+    {
+      "commit": "7e3553f72f25331976d35ab79b128326c8a81d82",
+      "tag": "prefect-sqlalchemy-0.4.4",
+      "parsed_at": "2026-09-15T01:20:47.752540+00:00"
+    },
+    {
+      "commit": "d7791414195869baa6ebb423c3b0e4477c6abf89",
+      "tag": "prefect-sqlalchemy-0.6.0",
+      "parsed_at": "2026-09-14T22:21:25.018366+00:00"
+    },
+    {
+      "commit": "ee531648b970b255057701acb167c2882c297ea1",
+      "tag": "prefect-sqlalchemy-0.6.1",
+      "parsed_at": "2026-05-10T10:06:13.797704+00:00"
+    }
+  ]
+}
